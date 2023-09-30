@@ -1,0 +1,23 @@
+.card_container{
+  position: relative;
+  box-shadow: 10px 10px 19px 1px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 10px 10px 19px 1px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 19px 1px rgba(0,0,0,0.75);
+  border-radius: 10px ;
+  width: 350px;
+  height: 500px;
+
+  display: flex;
+  overflow: hidden;
+  margin: 10px;
+}
+
+.img{
+  min-width: 100%;
+  min-height: 100%;
+  transition: transform .8s;
+}
+
+.img:hover{
+  transform: scale(1.1);
+}

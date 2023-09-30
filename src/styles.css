@@ -1,1 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  text-decoration: none
+
+}
+
+body{
+  background: rgb(0,17,36);
+  background: -moz-linear-gradient(90deg, rgba(0,17,36,1) 0%, rgba(0,36,156,1) 100%, rgba(0,213,255,0) 100%);
+  background: -webkit-linear-gradient(90deg, rgba(0,17,36,1) 0%, rgba(0,36,156,1) 100%, rgba(0,213,255,0) 100%);
+  background: linear-gradient(90deg, rgba(0,17,36,1) 0%, rgba(0,36,156,1) 100%, rgba(0,213,255,0) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#001124",endColorstr="#00d5ff",GradientType=1);
+}
